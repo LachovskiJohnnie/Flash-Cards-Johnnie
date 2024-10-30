@@ -4,9 +4,9 @@ criaCartao(
     'Ayrton Senna.'
 )
 criaCartao(
-    'Filosofia/História',
-    'Qual foi o filósofo mais importante da história?',
-    'Heráclito de Éfeso (540-470 a.C.).'
+    'Automobilismo',
+    'Quem criou a Koenigsegg?',
+    'Christian Von Koenigsegg.'
 )
 criaCartao(
     'História/Música',
