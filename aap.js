@@ -10,10 +10,10 @@ function criaCartao(categoria, pergunta, resposta) { // Corrigido: 'respota' par
                 <p>${pergunta}</p>
             </div>
             <div class="cartao__conteudo__resposta">
-                <p>${resposta}</p> <!-- Corrigido aqui também -->
+                <p>${resposta}</p>
             </div>
         </div>
-    `;
+    `
     
     let respostaEstaVisivel = false;
     function viraCartao() {
