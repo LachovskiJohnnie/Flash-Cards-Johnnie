@@ -7,15 +7,14 @@ function criaCartao(categoria, pergunta, respota) {
                 <div class="cartao__conteudo">
                     <h3>${categoria}</h3>
                     <div class="cartao__conteudo__pergunta">
-                        <p>${pergunta}</p>
+                    <p>${pergunta}</p>
                     </div>
                     <div class="cartao__conteudo__resposta">
-                        <p>${respota}</p>
+                    <p>${respota}</p>
                     </div>
                 </div>
     `
-    let respostaEstaVisivel = false
-
+    let respostaEstaVisivel = false;
     function viraCartao() {
         respostaEstaVisivel = !respostaEstaVisivel;
         cartao.classList.toggle('active', respostaEstaVisivel);
