@@ -100,7 +100,7 @@ footer p {
 
 @media (max-weight: 560px){
     body{
-        backound: url(img/bg-mobile.webp);
+        background: url(img/bg-mobile.webp);
     }
 
     .cartao{
